@@ -171,8 +171,15 @@ ul li {
 
 @media only screen and (min-width: 1000px) {
     body {
-      background-color: lightblue;
-      width: 60%;
-      margin: auto;
-    }
+        width: 60%;
+        margin: auto;
+      }
+      
+      img, iframe {
+        border-radius: 50px;
+      }
+      
+      h4 {
+        border-radius: 50px 50px 0 0;
+      }
   }
