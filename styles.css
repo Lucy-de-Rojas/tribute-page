@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'lucy';
+    src: url('https://github.com/Lucy-de-Rojas/tribute-page/blob/9197b72817695155c845e87d2cdc017908919fc2/fonts/PaletteMosaic-Regular.ttf');
+}
+
 
 body {
     padding: 50px;
@@ -9,10 +14,16 @@ body {
   
   
   h1 {
-    color: red;
+    color: rgb(7, 98, 218);
     font-family: 'Palette Mosaic';
     font-size: 4em;
+    /* font-family: 'lucy'; */
     
+  }
+
+
+  h2 {
+      font-family: 'lucy';
   }
   
   
